@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(230, 230, 230);
+  color: rbg(50, 50, 50);
+}
+header{
+  background: url('../imagens/machupicchu.jpg') center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+  color: white;
+  text-align: center;
+}
+/*h1{
+  position: fixed;
+}*/
+header > #botao-verde{
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+header > #botao-verde:hover{
+  color: darkgreen;
+  background-color: lightgreen;
+}
+header > #botao-branco{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+header > #botao-branco:hover{
+  color white
+  background-color: rgb(190, 190, 190);
+}
+section#services{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+section#services h3{
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+section#services small{
+  margin-bottom: 30px;
+  font-size: 1em;
+}
+section#services .destinos{
+  margin: auto;
+  padding: 10px;
+  display: block;
+  color: rgb(50, 50, 50);
+  background-color: white;
+  max-width: 400px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  text-decoration: none;
+  
+  overflow: hidden;
+  transition: 0.4s;
+
+}
+section#services .destinos:hover{
+  padding: 15px;
+}
+.destinos > img{
+ /* max-width: 400px;*/
+  width: 100%;
+ /* width: 390px;*/
+  border-radius: 10px;
+}
+.destinos > h4{
+  font-size: 1.5em;
+  margin: 10px 0px;
+}
+.destinos > p{
+  font-size: 1.1em;
+}
+section#services #botao-preto{
+  margin: auto;
+  margin-bottom: 30px;
+  max-width: 250px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  
+  transition: .4s;
+}
+section#services #botao-preto:hover{
+  max-width: 245px;
+  padding: 11px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+section#about{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+section#about > img{
+  margin: auto
+  margin-bottom: 10px;
+  max-width: 500px;
+}
