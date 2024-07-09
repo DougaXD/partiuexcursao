@@ -19,6 +19,13 @@ header{
 /*h1{
   position: fixed;
 }*/
+header h1{
+  padding-top: 20px;
+}
+header h2{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 header > #botao-verde{
   text-decoration: none;
   color: white;
@@ -38,7 +45,7 @@ header > #botao-branco{
   border-radius: 5px;
 }
 header > #botao-branco:hover{
-  color white
+  color white;
   background-color: rgb(190, 190, 190);
 }
 section#services{
